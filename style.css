@@ -132,7 +132,7 @@ section {
 }
 
 section h2 {
-    margin-bottom: 200px;
+    margin-bottom: 250px;
     /* Espaço entre o título e o parágrafo */
     font-size: 1.5rem;
     /* Define um tamanho maior para o título */
@@ -141,7 +141,7 @@ section h2 {
 }
 
 section p {
-    margin-top: 50px;
+    margin-top: 30px;
     /* Espaço entre o áudio e o parágrafo */
     text-align: justify;
     /* Justifica o texto para melhor leitura */
