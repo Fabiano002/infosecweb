@@ -154,3 +154,81 @@ footer {
     padding: 1em 0;
     margin-top: 2em;
 }
+
+/* ----------------------------------- */
+/* Media Queries (Para Smartphones) */
+/* ----------------------------------- */
+
+@media (max-width: 768px) {
+    /* Cabeçalho */
+    header {
+        text-align: center;
+        padding: 10px;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    header p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /* Menu */
+    .menu {
+        text-align: center;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Podcast */
+    .podcast-audio {
+        margin: 100px auto;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    /* Seções */
+    section {
+        font-size: 0.9rem;
+        max-width: 90%;
+    }
+
+    section h2 {
+        font-size: 1.2rem;
+    }
+
+    /* Rodapé */
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes adicionais para telas muito pequenas */
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .menu ul {
+        gap: 5px;
+    }
+
+    .podcast-audio {
+        margin: 50px auto;
+        padding: 8px;
+    }
+
+    section {
+        font-size: 0.8rem;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+}
