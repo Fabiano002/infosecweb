@@ -145,6 +145,7 @@ section p {
     /* Espaço entre o áudio e o parágrafo */
     text-align: justify;
     /* Justifica o texto para melhor leitura */
+    color: #000;
 }
 
 footer {
